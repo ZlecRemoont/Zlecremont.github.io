@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>ZlećRemont</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<header>
+  <h1>ZlećRemont</h1>
+  <button onclick="showLogin()">Logowanie</button>
+</header>
+
+<section class="hero">
+  <h2>Znajdź fachowca do remontu</h2>
+
+  <div class="form-box">
+    <input id="title" placeholder="Co chcesz zlecić?">
+    <input id="city" placeholder="Miasto">
+    <button onclick="addJob()">Dodaj zlecenie</button>
+  </div>
+</section>
+
+<section class="jobs">
+  <h3>Ostatnie zlecenia</h3>
+  <div id="jobsList"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
