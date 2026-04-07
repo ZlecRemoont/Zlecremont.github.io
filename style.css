@@ -1,1 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f6f9;
+}
 
+header {
+  background: #1e2a38;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  background: #2d89ef;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.form-box {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.form-box input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.form-box button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #2d89ef;
+  color: white;
+  border: none;
+}
+
+.jobs {
+  padding: 20px;
+}
+
+.job {
+  background: white;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
